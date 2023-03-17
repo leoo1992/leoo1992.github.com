@@ -26,6 +26,7 @@
        width: 95%;
        font-size: 1.5em;
        margin-bottom: 0.5px;
+       font-weight: 600em;
     }
     main {
         margin-right: 12%;
@@ -109,6 +110,7 @@
            align-items: center;
            justify-content: center;
            text-align: center;
+           font-weight: 600em;
        } 
    
        
@@ -228,8 +230,20 @@
        justify-content: center;
        text-align: center;
    }
+
+   header h4{
+    font-size: 12px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight:bold;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 2%;
+}
        footer {
-           font-size: 6px;
            font-weight:bold;
            margin-top: 0%;
            margin-bottom: 0%;
@@ -241,6 +255,20 @@
            text-align: center;
            
    }
+
+   footer h5 {
+    font-size: 8px;
+    font-weight:bold;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
    
    header a.linkedin,a.github,a.instagram,a.facebook{
        padding: 0px;
@@ -274,6 +302,7 @@
        main .main-content .text p{
            text-indent: 10px;
            font-size: 0.8em;
+           font-weight: 600em;
            margin-top: 1%;
            margin-bottom: 1%;
            margin-left: 0%;
@@ -401,7 +430,7 @@
        text-align: center;
    }
        footer {
-           font-size: 6px;
+           font-size: 2px;
            font-weight:bold;
            margin-top: 0%;
            margin-bottom: 0%;
