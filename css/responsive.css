@@ -342,9 +342,6 @@
    align-self: center;
    align-content:center;
    position:sticky;
-   
-   
-   
    }
    main .techs .cards-container .card img{
        width: 125%;
@@ -352,6 +349,10 @@
        align-items: center;
        justify-content: center;
        justify-items: center;
+       margin-top: 0%;
+       margin-bottom: 0%;
+       margin-left: 0%;
+       margin-right: 0%;
    
     }
     main .techs .cards-container .card2 img{
@@ -360,6 +361,10 @@
        align-items: center;
        justify-content: center;
        justify-items: center;
+       margin-top: 0%;
+       margin-bottom: 0%;
+       margin-left: 0%;
+       margin-right: 0%;
     }
     main .techs .cards-container .card3 img{
        width: 125%;
@@ -367,6 +372,10 @@
        align-items: center;
        justify-content: center;
        justify-items: center;
+       margin-top: 0%;
+       margin-bottom: 0%;
+       margin-left: 0%;
+       margin-right: 0%;
     }
    main .techs .cards-container {
        display: flex;
@@ -444,12 +453,15 @@
    }
    
    header a.linkedin,a.github,a.instagram,a.facebook{
-       padding: 0px;
+       padding: 0.5px;
        font-size: 1.8em;
-       margin-right: 0em;
-       margin-top: 0%;
-       margin-bottom: 0%;
-   
+       text-align: center;
+       justify-items: center;
+       justify-self:center;
+       align-self: center;
+       align-content:center;
+       margin: 0;
+       margin-left: 0;
    }
    main .main-content .article .contact ,a.linkedin2,a.github2,a.instagram2,a.facebook2{
        display:flex;
@@ -465,6 +477,7 @@
        align-content:center;
        text-align: center;
        margin-left: 0;
+       margin-right: 0;
        justify-self: center;
        object-position: center;
        font-size: medium;
