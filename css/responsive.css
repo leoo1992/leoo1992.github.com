@@ -128,7 +128,7 @@
    width: 90px;
    height: 90px;
    border-radius: 50px;
-   border: 0.5px lime solid;
+   border: 0.5px cyan solid;
    margin-top: 0%;
    margin-bottom: 0%;
    margin-top: 0%;
@@ -181,7 +181,7 @@
     main .techs .cards-container .card{
        width: 40px;
        height: 40px;
-       border: 1px lime solid;
+       border: 1px cyan solid;
        border-radius: 15px;
        margin-top: 0%;
        margin-bottom: 0%;
@@ -192,7 +192,7 @@
     main .techs .cards-container .card2{
        width: 40px;
        height: 40px;
-       border: 1px lime solid;
+       border: 1px cyan solid;
        border-radius: 15px;
        margin-top: 0%; 
        margin-bottom: 0%;
@@ -203,7 +203,7 @@
    main .techs .cards-container .card3{
        width: 40px;
        height: 40px;
-       border: 1px lime solid;
+       border: 1px cyan solid;
        border-radius: 15px;
        margin-top: 0%;
        margin-bottom: 0%;
@@ -211,7 +211,7 @@
        margin-right: 0%;
     }
     header ,h3,h2{
-       font-size: 15px;
+       font-size: 10px;
        font-weight:bold;
        margin-top: 1%;
        margin-bottom: 1%;
@@ -229,7 +229,7 @@
        text-align: center;
    }
        footer {
-           font-size: 12px;
+           font-size: 6px;
            font-weight:bold;
            margin-top: 0%;
            margin-bottom: 0%;
@@ -303,7 +303,7 @@
    width: 70px;
    height: 70px;
    border-radius: 35px;
-   border: 0.5px lime solid;
+   border: 0.5px cyan solid;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -353,7 +353,7 @@
     main .techs .cards-container .card{
        width: 35px;
        height: 35px;
-       border: 0.5px lime solid;
+       border: 0.5px cyan solid;
        border-radius: 10px;
        margin-top: 0%;
        margin-bottom: 0%;
@@ -364,7 +364,7 @@
     main .techs .cards-container .card2{
        width: 35px;
        height: 35px;
-       border: 0.5px lime solid;
+       border: 0.5px cyan solid;
        border-radius: 10px;
        margin-top: 0%; 
        margin-bottom: 0%;
@@ -375,7 +375,7 @@
    main .techs .cards-container .card3{
        width: 35px;
        height: 35px;
-       border: 0.5px lime solid;
+       border: 0.5px cyan solid;
        border-radius: 10px;
        margin-top: 0%;
        margin-bottom: 0%;
@@ -401,7 +401,7 @@
        text-align: center;
    }
        footer {
-           font-size: 12px;
+           font-size: 6px;
            font-weight:bold;
            margin-top: 0%;
            margin-bottom: 0%;

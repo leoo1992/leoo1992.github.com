@@ -26,23 +26,33 @@
         transition: 1s ease-in-out;
     }
     #background-video {
-    width: 100vw;
-    height: 100vh;
-    width: 100%;
-    object-fit:cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
+        position: fixed; 
+        right: 0; 
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+        width: auto; 
+        height: auto; 
+        z-index: -1;
+        background-size: cover; 
+        opacity: 30%;
     }
 
 header {
-    background-color: rgba(0, 0, 0, 0.791);
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 0px 0px 20px 20px;
+}
+header:hover {
+    box-shadow: 0px 0px 25px cyan;
+    transition: 1s ease-in-out;
 }
 footer {
-    background-color: rgba(0, 0, 0, 0.791);
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 20px 20px 0px 0px;
+}
+footer:hover {
+    box-shadow: 0px 0px 25px cyan;
+    transition: 1s ease-in-out;
 }
 *{
     margin: 0;
@@ -70,9 +80,10 @@ main .main-content{
 }
 main .main-content h3{
     font-size: 1.4em;
-    color: lime;
+    color: rgb(255, 255, 255);
     font-weight: bold;
-    font-weight: 2000;
+    font-weight: 2500;
+    font-weight: bolder;
 }
 
 main .main-content .text p {
@@ -97,13 +108,13 @@ text-align: justify;
     border-radius: 20px;
     margin-right: 2em;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.791);
+    background-color: rgba(0, 0, 0, 0.437);
     display:flex;
     align-items: center;
     justify-content: center;
     justify-items: center;
     transition: box-shadow 1s ease-in-out;
-    border: 2px lime solid;
+    border: 1px cyan solid;
  }
  main .techs .cards-container .card img{
     width: 85%;
@@ -113,7 +124,7 @@ text-align: justify;
     justify-items: center;
  }
  main .techs .cards-container .card:hover{
-    box-shadow: 0px 0px 25px lime;
+    box-shadow: 0px 0px 25px cyan;
 }
 /****************CARD CSS****************************/
  main .techs .cards-container .card2{
@@ -124,13 +135,13 @@ text-align: justify;
     border-radius: 20px;
     margin-right: 2em;
     cursor: pointer;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.437);
     display:flex;
     align-items: center;
     justify-content: center;
     justify-items: center;
     transition: box-shadow 1s ease-in-out;
-    border: 2px lime solid;
+    border: 1px cyan solid;
  }
  main .techs .cards-container .card2 img{
     width: 65%;
@@ -140,7 +151,7 @@ text-align: justify;
     justify-items: center;
  }
  main .techs .cards-container .card2:hover{
-    box-shadow: 0px 0px 25px lime;
+    box-shadow: 0px 0px 25px cyan;
 }
 /******************CARD JS**********************/
 main .techs .cards-container .card3{
@@ -157,7 +168,7 @@ main .techs .cards-container .card3{
     justify-content: center;
     justify-items: center;
     transition: box-shadow 1s ease-in-out;
-    border: 2px lime solid;
+    border: 1px cyan solid;
  }
  main .techs .cards-container .card3 img{
     width: 70%;
@@ -167,7 +178,7 @@ main .techs .cards-container .card3{
     justify-items: center;
  }
  main .techs .cards-container .card3:hover{
-    box-shadow: 0px 0px 25px lime;
+    box-shadow: 0px 0px 25px cyan;
 }
 
 /*______________FIGURE____________*/
@@ -175,7 +186,7 @@ body figure img{
     width: 240px;
     height: 290px;
     border-radius: 40px;
-    border: 1px lime solid;
+    border: 1px cyan solid;
     display: block;
     position: absolute;
     bottom: 36%;
@@ -184,7 +195,7 @@ body figure img{
     cursor: pointer;
 }
 body figure img:hover {
-    box-shadow: 0px 0px 25px lime;
+    box-shadow: 0px 0px 25px cyan;
 }
 
 main .main-content .article .contact ,a.linkedin2,a.github2,a.instagram2,a.facebook2{
@@ -221,17 +232,15 @@ body a.facabook2:hover{
 h3{
     font-size: 1.4em;
     cursor: pointer;
-    color: lime;
+    color: white;
     align-items: center;
     justify-content: space-between;
     align-self: center;
 }
-    header h3:hover{
-        color:darkgreen;  
-        transition: 1s ease-in-out;
-    }
     p{
         color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-weight: bold;
 
     }
     body {
@@ -239,6 +248,7 @@ h3{
         height: 100%;
         display: flex;
         flex-direction: column;
+        background-color: rgba(1, 0, 14, 0.945);
     }
     
     
