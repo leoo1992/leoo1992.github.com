@@ -184,7 +184,7 @@ main .techs .cards-container .card3{
 /*______________FIGURE____________*/
 body figure img{
     width: 240px;
-    height: 290px;
+    height: 240px;
     border-radius: 40px;
     border: 1px cyan solid;
     display: block;
