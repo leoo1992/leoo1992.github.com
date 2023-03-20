@@ -24,7 +24,7 @@
    main .main-content .text p{
        text-indent: 10px;
        width: 95%;
-       font-size: 1.5em;
+       font-size: 1.7em;
        margin-bottom: 0.5px;
        font-weight: 600em;
     }
@@ -58,46 +58,38 @@
        display: flex;
        align-items:center;
        margin-left: 20%;
-       align-items: center;
        justify-content: center;
        text-align: center;
        margin-top: 0%;
        margin-bottom: 0%;
-       margin-left: 0%;
        margin-right: 0%;
     }
     main .techs .cards-container .card{
        width: 50px;
        height: 50px;
-       margin-right: 3m;
        align-items: center;
        justify-content: center;
        text-align: center;
        margin-top: 0%;
        margin-bottom: 0%;
        margin-left: 0%;
-       margin-right: 0%;
     }
     main .techs .cards-container .card2{
        width: 50px;
        height: 50px;
-       margin-right: 3m;
        align-items: center;
        justify-content: center;
        text-align: center;
        margin-top: 0%;
        margin-bottom: 0%;
        margin-left: 0%;
-       margin-right: 0%;
     }
     main .techs .cards-container .card3{
        width: 50px;
        height: 50px;
-       margin-right: 3m;
        margin-top: 0%;
        margin-bottom: 0%;
        margin-left: 0%;
-       margin-right: 0%;
        align-items: center;
        justify-content: center;
        text-align: center;
@@ -110,7 +102,6 @@
        margin-top: 0%;
        margin-bottom: 0%;
        margin-left: 0%;
-       margin-right: 0%;
        align-items: center;
        justify-content: center;
        text-align: center;
@@ -123,7 +114,6 @@
        margin-top: 0%;
        margin-bottom: 0%;
        margin-left: 0%;
-       margin-right: 0%;
        align-items: center;
        justify-content: center;
        text-align: center;
@@ -137,21 +127,44 @@
        
    
    }
-   
+
+   header a.linkedin,a.github,a.instagram,a.facebook{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    object-position:center;
+    margin: 5%;
+    font-size: 10px;
+   } 
+header h6{
+    font-size: 4px ;
+
+}
+main #contact{
+    display: none;
+}
+
    main .main-content .article .contact ,a.linkedin2,a.github2,a.instagram2,a.facebook2{
        text-decoration: none;
        color: rgb(255, 255, 255);
        transition: 0.5s ease-in-out;
        font-size: 0.5px;
-       margin-top: 0%;
-       margin-bottom: 0%;
-       margin-left: 0%;
-       margin-right: 0%;
        align-items: center;
        justify-content: center;
        text-align: center;
-   
+       object-position:center;
+        flex-direction: column;
+    
    }
+   header h6{
+  display: none;
+}
+main #contact{
+    display: none;
+}
     /*____________________OUTRA RESOLUÇÃO---------------------------_____*/
    
    }   
@@ -172,7 +185,7 @@
        
    main .main-content .text p{
        text-indent: 20px;
-       font-size: 0.50em;
+       font-size: 9.8px;
        margin-top: 1%;
        margin-bottom: 1%;
        margin-left: 0%;
@@ -187,8 +200,6 @@
    height: 90px;
    border-radius: 50px;
    border: 0.5px cyan solid;
-   margin-top: 0%;
-   margin-bottom: 0%;
    margin-top: 0%;
    margin-bottom: 0%;
    margin-left: 0%;
@@ -288,20 +299,26 @@
     header ,h3,h2{
        font-size: 10px;
        font-weight:bold;
-       margin-top: 1%;
-       margin-bottom: 1%;
+       margin-top: 0%;
+       margin-bottom: 0%;
        margin-left: 0%;
        margin-right: 0%;
        flex-direction: column;
        align-items: center;
        justify-content: center;
        text-align: center;
+       justify-items: center;
+       justify-self: center;
+       align-self: center;
    }
    header{
        flex-direction: column;
        align-items: center;
        justify-content: center;
        text-align: center;
+       justify-items: center;
+       justify-self: center;
+       align-self: center;
    }
 
    header h4{
@@ -315,6 +332,27 @@
     margin-bottom: 1%;
     margin-left: 1%;
     margin-right: 2%;
+}
+
+
+header a.linkedin,a.github,a.instagram,a.facebook{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    object-position:center;
+    margin: 1.5%;
+    font-size: 15px;
+    padding: 0px;
+   } 
+header h6{
+    display: none;
+
+}
+main #contact{
+    display: none;
 }
        footer {
            font-weight:bold;
@@ -343,12 +381,6 @@
     
 }
    
-   header a.linkedin,a.github,a.instagram,a.facebook{
-       padding: 0px;
-       margin-right: 0em;
-       margin-top: 0%;
-       margin-bottom: 0%;
-   
    }
    main .main-content .article .contact ,a.linkedin2,a.github2,a.instagram2,a.facebook2{
        display:flex;
@@ -362,15 +394,12 @@
        justify-self:center;
        align-self: center;
        align-content:center;
-       text-align: center;
        margin-left: 0;
-       justify-self: center;
        object-position: center;
        font-size: medium;
    }
    /*____________________OUTRA RESOLUÇÃO---------------------------_____*/
-   
-   }   
+
    @media (max-width:100px){
        main .main-content .text p{
            text-indent: 10px;
@@ -511,6 +540,7 @@
        justify-content: center;
        text-align: center;
    }
+   
        footer {
            font-size: 2px;
            font-weight:bold;

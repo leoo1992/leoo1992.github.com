@@ -6,9 +6,13 @@
         align-items: center;
         text-align: center;
         justify-content: space-between;
-        font-size: 1.5em;
+        font-size: 20px;
         margin-right: 1.3em;
         cursor: pointer;
+    }
+
+    header h6{
+        font-size: 16px;
     }
     header a.linkedin:hover{
         color:dodgerblue;
@@ -19,7 +23,7 @@
         transition: 1s ease-in-out;
     }
     header a.instagram:hover{
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        color: #d6249f ;
     }
     header a.facabook:hover{
         color:blue;
@@ -198,36 +202,34 @@ body figure img:hover {
     box-shadow: 0px 0px 25px cyan;
 }
 
-main .main-content .article .contact ,a.linkedin2,a.github2,a.instagram2,a.facebook2{
+main a.col.linkedin2, a.col.github2, a.col.instagram2, a.col.facebook2{
     text-decoration: none;
     margin-top: 1%;
     color: rgb(255, 255, 255);
     transition: 0.5s ease-in-out;
-    font-size: 2em;
+    font-size: 30px;
     cursor: pointer;
     align-items: center;
     justify-items: center;
     justify-content: center;
     object-position: center;
     align-content: center;
-  
+    flex-direction: column;
+}
+main h6{
+    font-size: 20px;
 }
 
-body a.linkedin2:hover{
+body a.col.linkedin2:hover{
     color:dodgerblue;
-    transition: 1s ease-in-out;
     }
-body a.github2:hover{
+body a.col.github2:hover{
     filter: invert(35%);
-    transition: 1s ease-in-out;
 }
-body a.instagram2:hover{
-    color: #d6249f ;
-    transition: 1s ease-in-out;
-}
-body a.facabook2:hover{
+body a.col.instagram2:hover{
+    color: #d6249f ;}
+body a.col.facabook2:hover{
     color:blue;
-    transition: 1s ease-in-out;
 }
 h3{
     font-size: 1.4em;
