@@ -193,7 +193,7 @@ main #contact{
        flex-direction: column;
        align-items: center;
        justify-content: center;
-       text-align: center;
+
    }
    body figure img{
    width: 90px;
