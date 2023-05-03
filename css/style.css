@@ -7,12 +7,12 @@
         text-align: center;
         justify-content: space-between;
         font-size: 20px;
-        margin-right: 1.3em;
+        margin-right: 0.5em;
         cursor: pointer;
     }
 
     header h6{
-        font-size: 16px;
+        font-size: 12px;
     }
     header a.linkedin:hover{
         color:dodgerblue;
@@ -189,7 +189,7 @@ main .techs .cards-container .card3{
 body figure img{
     width: 240px;
     height: 240px;
-    border-radius: 40px;
+    border-radius: 50%;
     border: 1px cyan solid;
     display: block;
     position: absolute;
