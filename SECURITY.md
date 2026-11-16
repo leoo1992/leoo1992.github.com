@@ -1,19 +1,11 @@
 # Security Policy
 
-## Private vulnerability disclosure
+## Reporting a vulnerability
 
-Please report security vulnerabilities privately through GitHub's **Security > Report a vulnerability** feature, where enabled. If unavailable, contact the maintainer privately through the GitHub profile. Do not publish tokens, passwords, private keys, exploit details or personal information in public issues.
+Please report suspected vulnerabilities privately through GitHub Security Advisories for this repository. Do not open a public issue containing exploit details or personal data.
 
-## Supported versions
+Include the affected component, reproduction steps, expected impact, and any remediation suggestion you have.
 
-Security maintenance targets the latest commit on the repository's default branch. Historical releases, forks and archived versions might not receive fixes.
+## Supported code
 
-## Report details
-
-Include the affected version, impact, reproducible steps using synthetic data, and any proposed remediation. Allow time for assessment and coordinated disclosure.
-
-## Maintenance guidance
-
-Use least-privilege GitHub Actions permissions, update dependencies regularly, exclude environment secrets from version control, and validate CI, build, tests and security scanning wherever configured.
-
-This policy does not assert that vulnerability scanning is enabled or that all quality checks pass.
+Security fixes target the current default branch. Keep dependencies updated and use the automated checks configured for this repository.
